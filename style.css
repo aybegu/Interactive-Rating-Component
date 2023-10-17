@@ -18,10 +18,15 @@ body{
     justify-content: center;
 }
 
+.hidden{
+    display: none;
+}
+
 .card{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 340px;
 }
 
 .card-container{
@@ -30,11 +35,13 @@ body{
     border-radius: 1.5rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
     gap: 0.5rem;
-    width: 350px;
-    height: 350px;
-    padding: 2rem ;
+
 }
+
 
 .star-circle{
     width: 50px;
@@ -53,7 +60,7 @@ body{
     margin-bottom: 0;
 }
 
-.card-container p{
+.paragraph{
     color: var(--Light-Grey);
     font-size: 15px;
     font-weight: 400;
@@ -89,7 +96,8 @@ body{
 .button{
     background-color: var(--Orange);
     border: none;
-    height: 45px;
+    width: 100%;
+    padding: .7rem;
     border-radius: 2rem;
     color: var(--White);
     font-weight: 400;
@@ -103,6 +111,42 @@ button:hover{
     cursor: pointer;
 }
 
+.thanks_section{
+    text-align: center;
+    width: 330px;
+
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+    
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem ;
+    
+}
+
+.selection-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Dark-Blue);
+    color: var(--Orange);
+    border-radius: 2rem;
+    width: fit-content;
+    font-size: 14px;
+    padding: 0rem .3rem;
+    margin: 1rem auto;
+}
+
+.selection-part p{
+    margin: .5rem 1rem;
+
+}
 
 .attribution {
     color: aliceblue;
