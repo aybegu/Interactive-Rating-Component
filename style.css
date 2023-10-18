@@ -39,9 +39,7 @@ body{
     justify-content: center;
     padding: 2rem;
     gap: 0.5rem;
-
 }
-
 
 .star-circle{
     width: 50px;
@@ -79,7 +77,6 @@ body{
     cursor: pointer;
     background-color: var(--Orange);
     color: var(--White);
-
 }
 
 .circle{
@@ -93,7 +90,7 @@ body{
     color: var(--Light-Grey);
 }
 
-.button{
+.submit_button{
     background-color: var(--Orange);
     border: none;
     width: 100%;
@@ -104,11 +101,16 @@ body{
     font-size: 15px;
 }
 
-button:hover{
+.submit_button:hover{
     background-color: var(--White);
     color: var(--Orange);
     font-weight: 700;
     cursor: pointer;
+}
+
+.checked{
+    background-color: var(--Light-Grey) !important;
+    color: var(--White) !important;
 }
 
 .thanks_section{
@@ -127,7 +129,6 @@ button:hover{
     justify-content: center;
     align-items: center;
     padding: 1rem 2rem ;
-    
 }
 
 .selection-part{
@@ -145,7 +146,6 @@ button:hover{
 
 .selection-part p{
     margin: .5rem 1rem;
-
 }
 
 .attribution {
@@ -155,6 +155,7 @@ button:hover{
     position: absolute;
     bottom: 1rem;
 }
+
 .attribution a {
     color: hsl(228, 64%, 66%); 
 }
